@@ -1,0 +1,27 @@
+
+.quiz-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  transition: 0.2s ease-in-out;
+}
+
+.quiz-card:hover {
+  transform: scale(1.01);
+  border-color: #0d6efd;
+}
+
+.option-box {
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.option-box:hover {
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.form-check-input:checked + .form-check-label {
+  font-weight: 600;
+  color: #0d6efd;
+}
